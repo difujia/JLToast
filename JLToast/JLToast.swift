@@ -135,6 +135,7 @@ public struct JLToastDelay {
     public func finish() {
         self.executing = false
         self.finished = true
+        self.view.hidden = true
     }
 
 }
